@@ -17,7 +17,7 @@ Requirements for the software and other tools to build and test
 
 Install Newman
 
-npm install -g newman
+    npm install -g newman
 
 Check Newman Version
 
