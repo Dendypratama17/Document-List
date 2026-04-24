@@ -2,7 +2,7 @@
 
 ## 📌 Prerequisites
 
-Sebelum install Appium, pastikan di MacBook kamu sudah ada:
+Sebelum install Appium, pastikan sudah install:
 
 - Homebrew
 - Node.js
@@ -219,6 +219,6 @@ appium driver install xcuitest
 - Gunakan Appium untuk cross-platform mobile testing
 - Gunakan Pytest untuk test runner
 - Pastikan environment sudah valid dengan appium-doctor
-- Gunakan emulator atau real device
+- Dapat gunakan real device atau emulator
 
 ---
