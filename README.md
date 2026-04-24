@@ -69,7 +69,7 @@ java -version
 
 ---
 
-## 🛠️ 5. Install Android Studio
+## 🛠️ 5. Install Android Studio (Optional)
 
 Install dan pastikan komponen berikut:
 - Android SDK
@@ -210,6 +210,27 @@ emulator-5554 device
 xcode-select --install
 sudo xcodebuild -license accept
 appium driver install xcuitest
+```
+
+---
+
+## 🛠️ 15. Install Appium Inspector
+
+```bash
+https://github.com/appium/appium-inspector/releases
+```
+
+Desired Capabilities
+- Contoh Android:
+
+```bash
+{
+  "platformName": "Android",
+  "appium:automationName": "UiAutomator2",
+  "appium:deviceName": "Android Emulator",
+  "appium:platformVersion": "14",
+  "appium:app": "/Users/yourname/apps/app-debug.apk"
+}
 ```
 
 ---
