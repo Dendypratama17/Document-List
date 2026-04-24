@@ -210,7 +210,7 @@ Library Java untuk API automation testing.
 | Selenium        | Web          | Multi         | Fleksibel & populer  | Setup kompleks         |
 | Cypress         | Web          | JS/TS         | Cepat & mudah        | Browser terbatas       |
 | Playwright      | Web          | Multi         | Modern & stabil      | Komunitas lebih kecil  |
-| Appium          | Mobile       | Multi         | Android & iOS        | Setup sulit            |
+| Appium          | Mobile       | Multi         | Android & iOS        | Setup kompleks         |
 | Robot Framework | Web/Mobile   | Keyword       | Mudah dibaca         | Kurang fleksibel       |
 | Katalon         | All-in-one   | GUI + Script  | Mudah digunakan      | Berbayar (advanced)    |
 | Postman/Newman  | API          | Low-code      | Mudah API testing    | Kurang scalable        |
