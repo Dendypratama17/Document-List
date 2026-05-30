@@ -1,0 +1,27 @@
+name: Notify QA on push
+
+on:
+  push:
+    branches:
+      - release/stg   # sesuaikan nama branch
+      - main
+
+jobs:
+  trigger-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch to QA repo
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.QA_REPO_PAT }}
+          script: |
+            await github.rest.repos.createDispatchEvent({
+              owner: 'your-org',        # ganti
+              repo: 'your-qa-repo',     # ganti
+              event_type: 'run-api-test-stg',
+              client_payload: {
+                branch: context.ref,
+                commit: context.sha,
+                triggered_by: context.actor
+              }
+            });
