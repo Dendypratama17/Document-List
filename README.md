@@ -242,4 +242,4 @@ Desired Capabilities
 - Pastikan environment sudah valid dengan appium-doctor
 - Dapat gunakan real device atau emulator
 
-------
+-----
